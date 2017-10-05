@@ -11,12 +11,12 @@ Feature: Evaluación de edad
     Scenario: Cuando tengo 0 años
 		Dado que ingreso mi edad
 		cuando escribo un "0"
-		entonces el evaluador de edad me dice "Eres un bebé"
+		entonces el evaluador de edad me dice "Eres un bebe"
 
     Scenario: Cuando tengo 10 años
 		Dado que ingreso mi edad
 		cuando escribo un "10"
-		entonces el evaluador de edad me dice "Eres un niño"
+		entonces el evaluador de edad me dice "Eres un nino"
 
     Scenario: Cuando tengo 16 años
 		Dado que ingreso mi edad
