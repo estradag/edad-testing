@@ -1,5 +1,6 @@
 # coding=utf-8
 
+# Ya habia pasado pero travis se buggeo
 class Edad():
 
     def __init__(self):
