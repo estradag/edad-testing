@@ -37,7 +37,8 @@ class TestEdad(unittest.TestCase):
                             'Eres Mumm-Ra')
 
     def obtener_resultado(self, edad):
-        return self.edad.evaluar_edad(edad)
+        self.edad.evaluar_edad(edad)
+        return self.edad.get_evaluacion_edad()
 
     def tearDown(self):
         pass
