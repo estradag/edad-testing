@@ -10,9 +10,9 @@ class Edad():
         if num1 < 0:
             self.evaluacion_edad = u'No existes'
         elif num1 == 0:
-            self.evaluacion_edad = u'Eres un bebé'
+            self.evaluacion_edad = u'Eres un bebe'
         elif num1 <= 13:
-            self.evaluacion_edad = u'Eres un niño'
+            self.evaluacion_edad = u'Eres un nino'
         elif num1 <= 18:
             self.evaluacion_edad = u'Eres un adolescente'
         elif num1 <= 65:

@@ -10,31 +10,31 @@ class TestEdad(unittest.TestCase):
 
     def test_si_tienes_neg_5_anios_no_existes(self):
         self.assertEquals(self.__obtener_resultado__(-5),
-                            'No existes')
+                            u'No existes')
 
     def test_si_tienes_0_anios_eres_bebe(self):
         self.assertEquals(self.__obtener_resultado__(0),
-                            'Eres un bebé')
+                            u'Eres un bebe')
 
     def test_si_tienes_8_anios_eres_ninio(self):
         self.assertEquals(self.__obtener_resultado__(8),
-                            'Eres un niño')
+                            u'Eres un nino')
 
     def test_si_tienes_15_anios_eres_adolescente(self):
         self.assertEquals(self.__obtener_resultado__(15),
-                            'Eres un adolescente')
+                            u'Eres un adolescente')
 
     def test_si_tienes_50_anios_eres_adulto(self):
         self.assertEquals(self.__obtener_resultado__(50),
-                            'Eres un adulto')
+                            u'Eres un adulto')
 
     def test_si_tienes_100_anios_eres_adulto_mayor(self):
         self.assertEquals(self.__obtener_resultado__(100),
-                            'Eres un adulto mayor')
+                            u'Eres un adulto mayor')
 
     def test_si_tienes_275_anios_eres_mummra(self):
         self.assertEquals(self.__obtener_resultado__(275),
-                            'Eres Mumm-Ra')
+                            u'Eres Mumm-Ra')
 
     def __obtener_resultado__(self, edad):
         return self.edad.evaluar_edad(edad)
@@ -42,5 +42,5 @@ class TestEdad(unittest.TestCase):
     def tearDown(self):
         pass
 
-if __name__ == '__main__':
-    unittest.main()
+if __name__ == '__main__': # pragma: no cover
+    unittest.main() # pragma: no cover
