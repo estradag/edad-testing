@@ -6,18 +6,18 @@ class Edad():
         self.evaluacion_edad = ""
 
     def evaluar_edad(self, num1):
-        num1 = int(num1)
-        if num1 < 0:
+        edad = int(num1)
+        if edad < 0:
             self.evaluacion_edad = u'No existes'
-        elif num1 == 0:
+        elif edad == 0:
             self.evaluacion_edad = u'Eres un bebe'
-        elif num1 <= 13:
+        elif edad <= 13:
             self.evaluacion_edad = u'Eres un nino'
-        elif num1 <= 18:
+        elif edad <= 18:
             self.evaluacion_edad = u'Eres un adolescente'
-        elif num1 <= 65:
+        elif edad <= 65:
             self.evaluacion_edad = u'Eres un adulto'
-        elif num1 <= 120:
+        elif edad <= 120:
             self.evaluacion_edad = u'Eres un adulto mayor'
         else:
             self.evaluacion_edad = u'Eres Mumm-Ra'
